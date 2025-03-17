@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.container-fluid {
+    height: 5144px;
+
+}
+
+.header {
+    height: 800px;
+    background: url(./src/img/header-photo.png) right / 946px 800px no-repeat #7036BA;
+
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+.nav {
+    margin-left: 937px;
+    margin-top: -50px;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.header-train-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 540px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 135px;
+}
+
+.header-train-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 540px;
+    height: 60px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.header-train-btn {
+    width: 261px;
+    height: 65px;
+    padding-top: 20px 50px;
+    border-radius: 50px;
+    background: #00BFB4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 629px;
+    padding-top: 100px;
+    gap: 30px;
+}
+
+.about-us-title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    color: #333333;
+   margin-top: 50px;
+}
+
+.about-us-video {
+    cursor: pointer;
+}
+
+.how {
+    height: 480px;
+    gap: 10px;
+    background: #7036BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.how-info {
+    width: 1140px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.how-text{
+    font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+width: 1110px;
+height: 50px;
+
+}
+
+.how-group{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    gap: 5px;
+}
+
+.how-group-num{
+    font-family: 'Raleway', sans-serif;
+font-weight: 600;
+font-size: 75px;
+line-height: 55px;
+letter-spacing: 0%;
+    color: #FFFFFF;
+
+}
+
+.how-group-text{
+    font-family: 'Raleway', sans-serif; 
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0%;
+color: #FFFFFF;
+width: 310PX;
+height: 100PX;
+
+}
+
+
+.accordion {
+    width: 1140px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.accordion-button {
+    color: white !important;
+    background: #7036BA !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+
+}
+
+.accordion-item {
+    border: none !important;
+    width: 730px;
+}
+
+.accordion-collapse {
+    background: #7036BA !important;
+    color: white !important;
+}
+
+.accordion-button::after {
+    background-image: url(./src/img/arrow-up.png) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.list-marker {
+    margin-right: 10px;
+}
+
+.accordion-body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 690px;
+
+}
+
+.sec-accordion-title {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    padding-top: 100px;
+}
+
+.sec-accordion {
+    background: #7036BA;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
