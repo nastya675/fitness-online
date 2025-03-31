@@ -382,12 +382,34 @@ body {
     margin-top: 100px;
 }
 
-.feedback-carousel-text {}
-
-.carousel-control-next {
-    background: #D9D1E3;
-
+.carousel-control-next-icon{
+    background-image: url(./src/img/arrow-next.png);
+   
 }
+
+.carousel-control-prev-icon{
+    background-image: url(./src/img/arrow-next.png);
+    rotate: 180deg;
+    margin-right: 30px;
+}
+
+.feedback-carousel-text{
+    text-align: left;
+    width: 315px;
+}
+
+.feedback-card{
+    width: 540px;
+    display: flex;
+    gap: 30px;
+}
+
+.d-block{
+    width: 125px;
+height: 155px;
+margin-left: 30px;
+}
+
 
 .accordion {
     max-width: 1140px;
@@ -542,10 +564,50 @@ color: #FFFFFF;
 }
 
 
-@media (max-width:320px) {
+@media (max-width:432px) {
+    .header{
+        width: 376px;
+height: 805px;
+background: url(./src/img/header-photo.png) bottom / 376px 327px no-repeat #7036BA;
+
+    }
+    .header-train-title{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 80px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        margin-left: 0;
+        width: 330px;
+height: 180px;
+text-align: center;
+margin-top: -200px;
+
+    }
+
+.logo{
+    margin-left: 0;
+}
+
+    .header-train-text{
+        width: 330px;
+height: 90px;
+margin-left: 0;
+text-align: center;
+margin-top: 60px;
+    }
+
+    .header-train-btn{
+        margin-left: 50px;
+    }
+    .about-us-video{
+        width: 330px;
+height: 198px;
+
+    }
     .how {
         height: 720px;
-        margin-top: 500px;
     }
 
     .how-group {
@@ -556,4 +618,55 @@ color: #FFFFFF;
         width: 330px;
         height: 295px;
     }
+    .features{
+        height: 895px;
+    }
+    .features-group{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .pricing{
+        height: 1480px;
+    }
+    .pricing-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .feedback{
+        
+        width: 376px;
+height: 735px;
+text-align: center;
+margin-top: -100px;
+    }
+    .feedback-title{
+        padding-top: 50px;
+    }
+    .feedback-card{
+        width: 330px;
+height: 475px;
+display: flex;
+flex-direction: column-reverse;
+
+    }
+    .feedback-carousel-text{
+        width: 230px;
+height: 250px;
+margin-left: 30px;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 23px;
+        width: 376px;
+height: 115px;
+gap: 10px;
+    }
 }
+
+
+
